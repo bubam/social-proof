@@ -1,0 +1,201 @@
+body {
+  font-family: "Spartan", sans-serif;
+  padding: 80px 24px 10px 24px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 990px) {
+  body {
+    padding: 125px 165px 100px 165px;
+  }
+}
+
+.review {
+  margin-bottom: 40px;
+}
+
+.review h1 {
+  font-weight: bold;
+  font-size: 3.2rem;
+  line-height: 100%;
+  letter-spacing: -1.14;
+  color: #512051;
+}
+
+.review p {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 167%;
+  letter-spacing: -0.5;
+  color: #927b91;
+}
+
+.ratings {
+  margin-bottom: 50px;
+}
+
+.rating {
+  background: #f7f2f7;
+  border-radius: 8px;
+  height: 78px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating .stars {
+  margin: 16px;
+}
+
+.rating h2 {
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #512051;
+}
+
+@media (min-width: 990px) {
+  .row.review-block {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 72px;
+  }
+
+  .review {
+    max-width: 445px;
+    text-align: left;
+  }
+
+  .review h1 {
+    font-size: 4.8rem;
+    line-height: 100%;
+    letter-spacing: -1.7;
+  }
+
+  .ratings {
+    width: 540px;
+    /* max-height: 56px; */
+    height: 33%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .rating-content {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .rating h2 {
+    margin-bottom: 0;
+  }
+
+  .rating.time {
+    margin-left: -50px;
+    margin-right: 50px;
+  }
+
+  .rating.guru {
+    margin-left: -25px;
+    margin-right: 25px;
+  }
+
+  .rating.best-tech {
+  }
+}
+
+.buyer-block {
+  margin-bottom: 100px;
+}
+
+.buyer {
+  background: #512051;
+  border-radius: 8px;
+  padding: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.buyer p {
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 169%;
+  letter-spacing: -0.23;
+  color: #ffffff;
+  text-align: left;
+}
+
+.verified-buyer {
+  display: flex;
+  /* align-items: center; */
+  max-width: 165px;
+  margin-bottom: 26px;
+}
+
+.verified-buyer img {
+  max-height: 40px;
+  border-radius: 50px;
+}
+
+.verified-buyer h3 {
+  font-weight: normal;
+  font-size: 1.3rem;
+  color: #ee69a4;
+}
+
+.verified-buyer h3.bold {
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 15px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.info {
+  margin-left: 23px;
+}
+
+@media (min-width: 990px) {
+  .buyer-block {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .buyer {
+    width: 33%;
+    margin: 10px;
+    height: 234px;
+  }
+
+  .buyer.colton {
+    margin-left: 0;
+    align-self: start;
+  }
+
+  .buyer.irene {
+    margin-top: 30px;
+  }
+
+  .buyer.anne {
+    margin-top: 50px;
+  }
+
+  /* .buyer p {
+    padding-bottom: 15px;
+  } */
+}
+
+.attribution {
+  font-size: 1.1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
